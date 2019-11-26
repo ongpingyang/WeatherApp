@@ -1,0 +1,16 @@
+GET http://localhost:3000/weather
+
+###
+
+GET http://localhost:3000/weather/5ddceac46efa7209003ad643
+
+###
+
+POST http://localhost:3000/weather
+Content-Type: application/json
+
+{
+    "location" : "Penang",
+    "latitude" : "0123",
+    "longitude" : "456"
+}
